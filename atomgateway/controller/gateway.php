@@ -19,8 +19,8 @@ public function busGatwaye()
 
 				//Setting all values here
 				$transactionRequest->setMode("Production");
-				$transactionRequest->setLogin(57938);
-				$transactionRequest->setPassword("GMNP@123");
+				$transactionRequest->setLogin(12345);
+				$transactionRequest->setPassword("TEST123");
 				$transactionRequest->setProductId("GMNP_RECHARGE");
 				$transactionRequest->setAmount($amount);
 				$transactionRequest->setTransactionCurrency("INR");
@@ -34,7 +34,7 @@ public function busGatwaye()
 				//$transactionRequest->setCustomerMobile($number);
 				$transactionRequest->setCustomerBillingAddress($CustomerAddress);
 				$transactionRequest->setCustomerAccount("639827");
-				$transactionRequest->setReqHashKey("dffb98122da3cc8670");
+				$transactionRequest->setReqHashKey("dffb98122daykyuk3cc8670");
 
 
 				$url = $transactionRequest->getPGUrl();
